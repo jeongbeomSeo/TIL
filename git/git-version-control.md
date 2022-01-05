@@ -1,14 +1,12 @@
 # git version control
 
 ## 버전 관리란?
---------------------------
 **버전 관리**란 파일 변화를 시간에 따라 기록했다가 나중에 특정 시점의 버전을 다시 꺼내올 수 있는 시스템이다.
 
  git은 소스코드를 효과적으로 관리하기 위해 개발된 '분산형 버전 관리 시스템'이다.
 
 
 ## git의 구조
-------------------------
 git은 **Working directory**(.git이 들어가있는 폴더) 와 **Remote Repository**로 이루어져있다.
 
 + .git은 directory로서 GIT의 저장소입니다.
@@ -21,7 +19,6 @@ working diretory안을 살펴보면 ***working tree***, ***staging area***, ***l
 
 
 ## 사용되는 용어 정리
-------------------------
 | 분류 | 명령어 | 내용 설명 |
 | ----- | --- | --- |
 | <새로운 저장소 생성> | $ git init | Initalize Repository |
@@ -32,7 +29,7 @@ working diretory안을 살펴보면 ***working tree***, ***staging area***, ***l
 | <버전 삭제> | $ git reset --hard [MESSAGE] | 최종 version 이전의 상태로 
 | <변경 사항 확인> | $ git diff <브랜치이름><다른 브랜치이름> | 변경 내용 병합(merge)전에 바뀐 내용을 비교할 수 있음 |
 | <로컬 변경사항 return 작업> | $ git checkout --<파일명> | 로컬의 변경 사항을 변경 전으로 되돌림 |
-------------------------------------------
+
 ## 구체적 활용법
 
 ### **1. commit 과정**
